@@ -8,7 +8,18 @@ export class User {
     mail: string;
     tel: number;
     password: string;
-    password2: string;
+
+    constructor(){
+        this.apellidos = '';
+        this.cPostal = 0;
+        this.domicilio = '';
+        this.mail = '';
+        this.nombre = '';
+        this.pais = '';
+        this.password = '';
+        this.provincia = '';
+        this.tel = 0;
+    }
 }
 
 export class Credenciales {
